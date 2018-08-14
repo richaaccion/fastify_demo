@@ -5,4 +5,5 @@ This example contains following:
 
 QUERIES:
 
-API does not return a response if we don't specify asycn while configuring end point
+Q - API does not return a response if we don't specify async while configuring end point  
+A - Since we are returning JSON object in the end point, we need to convert it into a promise (async keyword)  
